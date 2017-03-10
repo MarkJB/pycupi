@@ -20,17 +20,17 @@
 
 import sys
 import traceback
-from Pylargraph import *
-from Pylargraph.renderers.spiralArcRenderer import renderSpiralArc
-from Pylargraph.renderers.conCircleArcRenderer import renderConcentricCircleArc
-Polargraph = polargraph.Polargraph
+from vPiP import *
+from vPiP.renderers.spiralArcRenderer import renderSpiralArc
+from vPiP.renderers.conCircleArcRenderer import renderConcentricCircleArc
+Vpip = vPiP.Vpip
 
 filename = "../testImages/Vulcan.jpg"
 # filename = "../testImages/TyneBridge.jpg"
 # filename = "../testImages/SydneyOpera.jpg"
 # filename = "../testImages/SydneyOperaNight.jpg"
 # filename = "../testImages/HamptonCourt.jpg"
-with Polargraph() as p:
+with Vpip() as p:
     p.setShowDrawing(True)
     #p.setSaveDrawing(True)
     p.setPlotting(False)

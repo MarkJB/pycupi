@@ -13,16 +13,16 @@
 # limitations under the License.
 import sys
 import traceback
-from Pylargraph import *
-from Pylargraph.renderers.norwegianSpiral import renderNorwegianSpiral
-Polargraph = polargraph.Polargraph
+from vPiP import *
+from vPiP.renderers.norwegianSpiral import renderNorwegianSpiral
+Vpip = vPiP.Vpip
 
-filename = "../testImages/Vulcan.jpg"
+# filename = "../testImages/Vulcan.jpg"
 #filename = "../testImages/TyneBridge.jpg"
 #filename = "../testImages/SydneyOpera.jpg"
 #filename = "../testImages/SydneyOperaNight.jpg"
-#test3.pyfilename = "../testImages/HamptonCourt.jpg"
-with Polargraph() as p:
+filename = "../testImages/HamptonCourt.jpg"
+with Vpip() as p:
 #    p.setShowDrawing(True)
 #    p.setPlotting(False)
     try:

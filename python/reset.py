@@ -11,9 +11,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from Pylargraph import *
+from vPiP import *
 
-Polargraph = polargraph.Polargraph
+Vpip = vPiP.Vpip
 
-with Polargraph() as p:
+with Vpip() as p:
     p.penUp()

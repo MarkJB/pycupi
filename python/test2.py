@@ -13,12 +13,12 @@
 # limitations under the License.
 import sys
 import traceback
-from Pylargraph import *
-from Pylargraph.generators.spiral import generateSpiral
+from vPiP import *
+from vPiP.generators.spiral import generateSpiral
 
-Polargraph = polargraph.Polargraph
+Vpip = vPiP.Vpip
 
-with Polargraph() as p:
+with Vpip() as p:
 #    p.setShowDrawing(True)
 #    p.setPlotting(False)
     try:

@@ -13,13 +13,13 @@
 # limitations under the License.
 import sys
 import traceback
-from Pylargraph.polargraph import Polargraph, ConstrainDrawingRectangle
-from Pylargraph.renderers.svg import renderSVG
+from vPiP.vPiP import Vpip, ConstrainDrawingRectangle
+from vPiP.renderers.svg import renderSVG
 
 
 filename = "../testImages/Vulcan.svg"
 
-with Polargraph() as p:
+with Vpip() as p:
 #    p.setShowDrawing(True)
 #    p.setPlotting(False)
     try:

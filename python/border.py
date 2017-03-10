@@ -13,11 +13,11 @@
 # limitations under the License.
 import sys
 import traceback
-from Pylargraph import *
+from vPiP import *
 
-Polargraph = polargraph.Polargraph
+Vpip = vPiP.Vpip
 
-with Polargraph() as p:
+with Vpip() as p:
     try:
         p.moveTo(0, 0)
         p.drawTo(p.config.pixels, 0)
